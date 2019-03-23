@@ -10,9 +10,9 @@ width: 100%}
 .intro {
       
   display: flex;
-    align-content:left;
+align-content:left;
     height: 70%;
-    width: 100%;
+  width: 100%;
     margin: auto;
     background-image:
         linear-gradient(
@@ -44,6 +44,7 @@ text-align: left;
     color: rgba(236, 236, 236, 255);
   
 }
+
 .content h1{
 font-family: Raleway;
 font-size:12px;}
@@ -55,7 +56,7 @@ font-size: 20px}
 color: darkgoldenrod}
 .forms{
   
-
+float: right;
 width: 280px;
     top: 50%;
     background: rgba(97, 97, 97, 0.52);
@@ -86,4 +87,25 @@ background: none;
     color: white;
     padding: 6px;
     cursor: pointer;
+}
+.logo {
+   padding-right: 500px;
+    background-image: url('logo@1X.png');
+    background: no-repeat;
+      
+}
+
+.middle p{
+   font-family: Raleway;
+font-size:20px;
+margin-top: 50px;
+    width: 150px;
+    text-align: center; 
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 50%;
 }
