@@ -8,7 +8,9 @@ height: 100%;
 width: 100%}
 
 .intro {
-    
+      
+  display: flex;
+    align-content:left;
     height: 70%;
     width: 100%;
     margin: auto;
@@ -26,9 +28,6 @@ width: 100%}
 }
 
 .inner{
-  
-  display: flex;
-  justify-content: center;
 
     padding-left: 0px;
 display: table-cell;
@@ -55,7 +54,8 @@ font-size: 20px}
 .content p strong{
 color: darkgoldenrod}
 .forms{
- 
+  
+
 width: 280px;
     top: 50%;
     background: rgba(97, 97, 97, 0.52);
